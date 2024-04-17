@@ -184,4 +184,9 @@
     한 번 < %- body % >의 전후로 HTML 콘텐츠를 추가해보라. 
     모든 페이지에 추가 내용이 반영될 것이다.
 -->
+<h1>Our Courses</h1>
+<% offeredCourses.forEach(courses=> { %>
+<h5> <%= courses.title %> </h5>})
+<span>$ <%= course.cost %> </span>
+<% }); %>
 </html>
